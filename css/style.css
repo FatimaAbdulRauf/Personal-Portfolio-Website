@@ -1,0 +1,107 @@
+/* Import fonts from css folder */
+@import url(./fonts.css);
+@import url(./partials/global.css);
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+:root{
+
+    /* font family variables. */ 
+    --montserrat: 'Montserrat';
+} 
+
+/* start navigation */ 
+.navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+
+.navbar-nav{
+    font: normal 500 15px/2px var(--montserrat);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.nav-link:hover{
+    color: black;
+    background-color: white;
+}
+
+/* end navigation */
+/* banner area */ 
+
+.site-main .site-banner .site-title h1{
+    padding-top: 15%;
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 3rem 0;
+    width: 25rem;
+    height: auto;
+}
+
+/* end banner area */ 
+
+/* start about area */ 
+
+.site-main .about-area{
+    padding: 0 2rem 0 5rem;
+
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--montserrat);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* end about area */ 
+
+/* project area */ 
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/ 30px var(--montserrat);
+}
+
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px black);
+}
+
+
+/* end project area */ 
+
+/* form area */
+form{
+    padding: 2% 3%;
+    font: normal 700 25px/ 25px var(--montserrat);
+}
+
+.form-group{
+    padding: 1%;
+
+}
+label{
+    padding: 0.5%;
+}
+/* form area */
